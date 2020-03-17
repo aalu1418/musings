@@ -1,12 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=News+Cycle&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    {% include navigation.html %}
-    {{ content }}
+    <div class="container">
+      <div class="sidebar">
+        <div class="sidebar-content">
+          <h1>Musings</h1>
+          <p>A little place to jot down life's random thoughts.</p>
+        </div>
+      </div>
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
   </body>
 </html>
