@@ -13,8 +13,14 @@
       href="https://fonts.googleapis.com/css2?family=News+Cycle&family=Open+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="{{ "/assets/css/rain.css" | relative_url }}" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
+    <div class="rain-container">
+      <div class="rain front-row"></div>
+      <div class="rain back-row"></div>
+    </div>
     <div class="container">
       <div class="sidebar">
         <div class="sidebar-content">
@@ -27,4 +33,5 @@
       </div>
     </div>
   </body>
+  <script src="{{ "/assets/js/rain.js" | relative_url }}"></script>
 </html>
