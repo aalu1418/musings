@@ -9,6 +9,21 @@ body {
 h1,
 h2 {
   font-family: "News Cycle", sans-serif;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+hr {
+  border-width: 0.5px;
+  border-color: #ccc;
 }
 
 .container {
@@ -37,7 +52,7 @@ h2 {
   width: 100%;
   text-align: right;
   padding-right: 1rem;
-  border-right: 1px solid #eeeeee;
+  border-right: 1px solid #ccc;
 }
 
 .content {
