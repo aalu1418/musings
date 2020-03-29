@@ -1,10 +1,12 @@
 ---
 title:  "Chromebook Adventures: Beginnings"
+excerpt_separator: <!--more-->
 ---
 
 The big question: _can a Chromebook survive the rigors of university life?_ More specifically, the last semester of an aerospace engineering program with various coding projects.
 
 After going through most of my life with Windows computers (from 98 to 10, and everything in between), I wanted a laptop that was lighter in hardware and software.
+<!--more-->
 
 Windows machines had fairly large dimensions and the software was bogged down with various pieces of legacy "bloatware". The linux subsystem was a not a good replacement because it was simply too slow to use.
 

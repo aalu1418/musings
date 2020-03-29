@@ -1,8 +1,11 @@
 ---
 title:  "Chromebook Adventures: Web & Blockchain Development"
+excerpt_separator: <!--more-->
 ---
 
-Discovering the various capabilities, limitations, and quirks of Chrome OS & Crostini has been quite interesting. A typical environment right now involves running a React development server for front-end web development and a Ganache server for Ethereum blockchain development.
+Discovering the various capabilities, limitations, and quirks of Chrome OS & Crostini has been quite interesting.
+A typical environment right now involves running a React development server for front-end web development and a Ganache server for Ethereum blockchain development.
+<!--more-->
 
 Occasionally, the Crostini system will bog down because of the processing and memory limitations...but that is currently my only complaint.
 

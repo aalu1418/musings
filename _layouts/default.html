@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=News+Cycle&family=Open+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="{{ "/assets/css/rain.css" | relative_url }}" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
@@ -20,18 +21,16 @@
     <div class="rain-container">
       <div class="rain front-row"></div>
       <div class="rain back-row"></div>
+      <div class="frontPage">
+        <h1>musings</h1>
+        <p class="subtitle">a little place to jot down life's random thoughts</p>
+        <p class="continue">&darr;</p>
+      </div>
     </div>
     <div class="container">
-      <div class="sidebar">
-        <div class="sidebar-content">
-          <h1>Musings</h1>
-          <p>A little place to jot down life's random thoughts.</p>
-        </div>
-      </div>
-      <div class="content">
         {{ content }}
-      </div>
     </div>
   </body>
   <script src="{{ "/assets/js/rain.js" | relative_url }}"></script>
+  <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
 </html>
