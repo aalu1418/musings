@@ -8,6 +8,12 @@ $(".excerpt > p").click(event => {
     .css("display", "block"); //show content div
 });
 
+$(".continue").click(() => {
+  $('html, body').animate({
+        scrollTop: $(".container").offset().top
+    }, 1500);
+})
+
 $(document).ready(() => {
   $("h1, .subtitle").css("opacity", "1")
   const frontHeight = $(".frontPage").outerHeight(true) * 0.8;

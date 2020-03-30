@@ -63,7 +63,7 @@ li {
   font-weight: 100;
   opacity: 0;
   animation: breathe 5s ease-out 3s infinite;
-  cursor: default;
+  cursor: pointer;
 }
 
 @keyframes breathe {
@@ -73,7 +73,7 @@ li {
   }
   50% {
     transform: scale(1.2);
-    opacity: 1;
+    opacity: 0.75;
   }
   100% {
     transform: scale(1);
